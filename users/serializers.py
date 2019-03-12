@@ -1,0 +1,9 @@
+# serializer and view to display all existing users. 
+from rest_framework import serializers
+from . import models
+
+
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.CustomUser
+        fields = ('email', 'username',)
