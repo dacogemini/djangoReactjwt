@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     # DJANGO-REST-FRAMEWORK
     'rest_framework',
     'rest_framework.authtoken',
+    'corsheaders',
 
     # LOCAL
     'users',
@@ -66,6 +67,10 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CORS_ORIGIN_WHITELIST = (
+    'localhost:3000/'
+)
 
 AUTH_USER_MODEL = 'users.CustomUser'
 ROOT_URLCONF = 'backend.urls'

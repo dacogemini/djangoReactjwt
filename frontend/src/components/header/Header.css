@@ -1,0 +1,56 @@
+.container-nav {
+    margin-right: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+  }
+  
+  .btn-link {
+    background: none;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  
+  .nav-item {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    margin-left: 0px;
+  }
+  
+  .container {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    margin-left: 0px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    margin-right: -70px;
+  }
+  @media (max-width: 1180px) {
+    #nab {
+      visibility: hidden;
+    }}
