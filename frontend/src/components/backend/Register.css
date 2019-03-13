@@ -1,0 +1,17 @@
+.form-group {
+    margin-left: 640px;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    flex-direction: column;
+}
+h1 {
+    font-family: 'Anaheim', sans-serif;
+    color: antiquewhite;
+}
+.alert {
+    padding-bottom: 60px;
+    height: 50px;
+    width: 20%;
+    background-color: #065BA8;
+}

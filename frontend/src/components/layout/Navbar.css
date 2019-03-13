@@ -1,11 +1,32 @@
-.container-nav {
-    margin-right: 400px;
+.navbar-brand {
+    margin-left: -200px;
     display: flex;
     flex-direction: row;
     flex-wrap: no-wrap;
   }
-  
-  .btn-link {
+  .tag {
+    color: rgb(211, 223, 101);
+    width: 100px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .auth {
+    color: rgb(211, 223, 101);
+    width: 200px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .logo {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  /* .nav-link {
     background: none;
     text-decoration: none;
     color: inherit;
@@ -14,9 +35,29 @@
     font: inherit;
     cursor: pointer;
     outline: inherit;
+  } */
+  .menu {
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    /* background: white; */
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
   }
+  /* .nav-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: flex-end;
+  } 
   
-  .nav-item {
+  /* .container {
     background: none;
     color: inherit;
     border: none;
@@ -25,18 +66,7 @@
     cursor: pointer;
     outline: none;
     margin-left: 0px;
-  }
-  
-  .container {
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: none;
-    margin-left: 0px;
-  }
+  } */
   
   .logo {
     width: 100px;
@@ -48,7 +78,7 @@
     font: inherit;
     cursor: pointer;
     outline: none;
-    margin-right: -70px;
+    margin-right: 0px;
   }
   @media (max-width: 1180px) {
     #nab {
