@@ -1,41 +1,38 @@
 import React, { Component } from 'react';
-
-const list = [
-  {
-    'id': 1,
-    'title': '1st Item',
-    'description': 'Description here.'
-  },
-  {
-    'id': 2,
-    'title': '2nd Item',
-    'description': 'Another description here.'
-  },
-  {
-    'id': 3,
-    'title': '3rd Item',
-    'description': 'Third description here.'
-  }
-];
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Navbar from './components/layout/Navbar';
+import Header from './components/layout/Header';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { list };
+  state = {
+    username: []
+  };
+  async componentDidMount() {
+    try {
+      const res = await fetch('http://127.0.0.1:8000/api/v1/users');
+      const username = await res.json();
+      this.setState({
+        username
+      });
+    } catch (e) {
+      console.log(e);
+    }
   }
-
   render() {
     return (
-      <div>
-        {this.state.list.map(item => (
-          <div>
-            <h1>{item.title}</h1>
-            <span>{item.description}</span>
+      <Router>
+      <div className="App">
+        <Navbar />
+        <Header />
+        {this.state.username.map(item => (
+          <div key={item.username}>
+            <h1>{item.username}</h1>
+            <span>{item.username}</span>
           </div>
         ))}
       </div>
-     );
+      </Router>
+    );
   }
 }
-
 export default App;
