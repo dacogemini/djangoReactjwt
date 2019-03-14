@@ -7,7 +7,7 @@ class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
         <div className="container">
-        <a className="navbar-brand" href="# ">
+        <a className="navbar-brand" href="/">
             <img src="https://lh3.googleusercontent.com/Bq0xojkZjsSdLRp8gpHHEBQvAkWquXKEdhAVUSCfqK-zA2dXjS7IRkEIAIK8aIPKaCtA2m9EB_ZWKfUIcMfoT7I5_YD7yvHtYSv1-pWZ-3a4Q_c2ow0dXGHOfHmNPPDYJxBJXNSDAg=w2400" alt="Clark" />
           </a>
           <Link className="tag" to="/">
@@ -23,14 +23,14 @@ class Navbar extends Component {
           </button>
           <ul className="navbar-nav" id="nab">
               <div className="logo">
-              <a className="logo" href="# ">
+              <a className="logo" href="https://www.nabshow.com/">
             <img src="https://lh3.googleusercontent.com/AaWEYz-N-NG-m5MyendhLNblUhe4edOZY9111-SVnSc81uH0Mj7LQr-HyRElqDAd_m1zcVlHXrtkg9cOTalS3n5QameRGjulDO8GgUWpn-0SOlqQtwEgfU-1n_8VfyLFMPV_0wAOXA=w2400" width="125" height="100" alt="Clark" />
           </a>
           </div>
               </ul>
           <div className="menu" id="mobile-nav">
             <ul className="navbar-nav">
-              <li className="nav-item">
+            <li className="nav-item">
                 <Link className="nav-link" to="/about">
                   {' '}
                   ABOUT
