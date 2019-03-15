@@ -12,6 +12,8 @@ class App extends Component {
       <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <ul className="navbar-nav mr-auto">
+            {/* when location = { pathname: '/about' } */}
+            {/* render <About/> */}
             <li><Link to={'/'} className="nav-link"> Home </Link></li>
             <li><Link to={'/about'} className="nav-link">About</Link></li>
             <li><Link to={'/catalog'} className="nav-link"> Catalog </Link></li>
@@ -20,6 +22,8 @@ class App extends Component {
           </ul>
           </nav>
           <hr />
+          {/* A <Switch> will iterate over all of its children <Route> 
+          elements and only render the first one that matches the current location.  */}
           <Switch>
               <Route exact path='/' component={Home} />
               {/* <Route path='/contact' component={Contact} /> */}
