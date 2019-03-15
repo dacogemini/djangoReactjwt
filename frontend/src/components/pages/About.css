@@ -1,0 +1,12 @@
+.jumbotron {
+    background-color: #1263AC;
+    padding: 10px;
+}
+.display-4 {
+    font-family: 'Anaheim', sans-serif;
+    color: aliceblue;
+    display: flexbox;
+    justify-content: flex-end;
+
+}
+

@@ -15,7 +15,7 @@ class App extends Component {
             <li><Link to={'/'} className="nav-link"> Home </Link></li>
             <li><Link to={'/about'} className="nav-link">About</Link></li>
             <li><Link to={'/catalog'} className="nav-link"> Catalog </Link></li>
-            <li><Link to={'/Technical'} className="nav-link"> Technical </Link></li>
+            <li><Link to={'/technical'} className="nav-link"> Technical </Link></li>
             <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
           </ul>
           </nav>

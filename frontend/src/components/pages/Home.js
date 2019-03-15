@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import Carousel from '../elements/Carousel';
+
 
 class Home extends Component {
   render() {
     return (
         <div>
-          <h2>Home</h2>
+          <Carousel />
         </div>
     );
   }
