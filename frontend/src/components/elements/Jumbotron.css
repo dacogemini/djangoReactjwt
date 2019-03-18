@@ -11,13 +11,22 @@ h1 {
     height: 200px;    
 }
 .container {
-    background-image: url(../img/cable.png);
+    background-image: url(../img/fibericon.png);
+    background-repeat: no-repeat;
     background-size: 100px;
     height: 100px;
     width: 90%;
     margin-top: 10px;
     margin-left: 60px;
-
+}
+.container-people {
+    background-image: url(../img/people.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 100px;
+    width: 90%;
+    margin-top: -100px;
+    margin-left: 170px;
 }
 
 

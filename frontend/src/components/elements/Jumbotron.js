@@ -11,6 +11,10 @@ class Jumbotron extends Component {
       <h1>YOUR PARTNER IN CONNECTIVITY</h1>
       </center>
         <div className="container">
+        {/* icon-1 */}
+        </div>
+        <div className="container-people">
+        {/* icon-2 */}
         </div>
     </div>
     )
