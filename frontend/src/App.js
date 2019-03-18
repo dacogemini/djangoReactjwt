@@ -12,6 +12,9 @@ class App extends Component {
       <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <ul className="navbar-nav mr-auto">
+          <div className="container-avatar">
+          <img className="w-30 ml-auto mr-auto" src="https://lh3.googleusercontent.com/GCjBTEyVyw6qHzPWoSZJZlrU5PtFRmHStrcYc4mj4D1kTRnLm3kK9Ef01JkJZ9bYWsZ7wYAXSJ2YC1rajuYi7XGqUUk8hBiNIelDs83PsVW4mj6WVhZ48yO95_UUt2YqfKVmtFUGVA=w2400" style={{ width: 50 }} alt="avatar" />
+          </div>
             {/* when location = { pathname: '/about' } */}
             {/* render <About/> */}
             <li><Link to={'/'} className="nav-link"> Home </Link></li>
@@ -21,7 +24,6 @@ class App extends Component {
             <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
           </ul>
           </nav>
-          <hr />
           {/* A <Switch> will iterate over all of its children <Route> 
           elements and only render the first one that matches the current location.  */}
           <Switch>

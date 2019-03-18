@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Carousel from '../elements/Carousel';
+import Jumbotron from '../elements/Jumbotron';
 
 
 class Home extends Component {
   render() {
     return (
         <div>
-          <Carousel />
+          <Jumbotron />
         </div>
     );
   }
