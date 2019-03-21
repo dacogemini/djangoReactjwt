@@ -12,3 +12,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@media (max-width: 700px) and (min-width: 575px) {
+  .responsive {
+    display: none;
+  }
+
+  .trade-card {
+    display: none;
+  }
+
+  .card-responsive {
+    width: 210px;
+    margin-left: 5px;
+  }
+}
+  @media (max-width: 1565px) and (min-width: 1135px) {
+    .responsive {
+      margin-left: 230px;
+    }
+  
+    .trade-card {
+      margin-left: 230px;
+    }
+  
+    .card-responsive {
+      width: 210px;
+      margin-left: 5px;
+    }
+  }
+
+@media (max-width: 1135px) {
+  .responsive {
+    display: none;
+  }
+
+  .trade-card {
+    display: none;
+  }
+
+  .card-responsive {
+    width: 210px;
+    margin-left: 5px;
+  }
+}

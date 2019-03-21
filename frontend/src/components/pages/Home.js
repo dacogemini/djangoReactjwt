@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import Jumbotron from '../elements/Jumbotron';
+import Carousel from '../elements/Carousel';
+import Maincards from '../elements/Maincards';
+import Tradecard from '../elements/Tradecard';
 
 
 class Home extends Component {
   render() {
     return (
         <div>
-          <Jumbotron />
+          <Carousel />
+          <Maincards />
+          <Tradecard />
         </div>
     );
   }

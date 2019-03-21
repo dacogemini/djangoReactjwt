@@ -4,29 +4,29 @@ import './About.css';
 class About extends Component {
     render() {
       return (
-        <div>
-          <div className="jumbotron jumbotron-fluid">
-          <div>
-            <h2>A HISTORY OF SOLUTIONS TO THE BROADCAST AND PRO A/V MARKETS</h2>
-            </div>
-            <div className="container">
-            <a className="navbar-brand" href="/">
-                  <img className="container-experience" src="https://lh3.googleusercontent.com/iA5N66ONODXKyCNUORlyF-laKj2fVJ8klijOqOPpzGIAgwpN4GBfyKmfv4BsbBWbIr2A83ZDb-b9h3Na8aZF3U_gAzz9X38iea8-zkW_Y52DGMpXuzwrZxZonh0ImYPqdBYLsUHwIA=w2400" alt="Clark" />
-                </a>
-                <h3>CUSTOMER SERVICE</h3>
-              </div>
-              <div className="container">
-              <a className="navbar-brand" href="/">
-                  <img className="image" src="https://lh3.googleusercontent.com/uBNhEKJNh_2jdnH0pn4KLozxHlKbWbRIqMXc6OWCe62QTIwvX0Q1hBR1z6trI-gvhyD80ho5kTvnXwqDXlPV1FwNDnE_rtTVrraJd0W1ws65tBwHaZ9qWfKOgHzTeGMZ6ZZd_63KYQ=w2400" alt="Clark" />
-                </a>
-              </div>
-              <div>
-              <a href="/">
-                  <img className="image2" src="https://lh3.googleusercontent.com/kmJXG7J17YxcTCGjaiOLuBFTqe-x7JUQtXve44JFj6WIBiZK-KfG7oC5v2zp5T10OUTNecVJCZeZRJbYBlJlA_Sw1dsBE1AN-nTPFYwV6KrvssR-Tb_o6Q1iXmZqiwkOn3-ixUzjOA=w2400" alt="Clark" />
-                </a>
-              </div>
-            </div>
+        <div className="card text-center">
+          <div className="card-header">
+            ABOUT US
           </div>
+          <div className="card-body">
+            <h5 className="card-title">OUR HUMBLE BEGINNINGS</h5>
+            <center>
+            <p className="card-text">In 1989 Clark Wire & Cable opened its doors to the broadcast industry. The goal was to deliver highly engineered products built specifically for the unique demands of broadcast and professional AV coupled with exceptional customer service and value added support.
+At Clark, we know that customers are the cornerstones of business. Over the past three decades of growth, customer service and support has remained Clark's top priority. Personalized service with our knowledgeable sales group and account managers 
+ensures exceptional customer service and on-time delivery.<br /><br />
+Leading and innovating in cable and connectivity technology, Clark has been first-to-market on many products that have evolved to become industry standards. Clark's most popular cable, the ribbon stereo, was the first of it's kind in the cable industry and to date we are still the only company that offers this bonded-style audio cable in multiple color combinations. Clark was also the first to market with remote composite cables, offering more variations than any other brand in the industry. 
+Another notable first was our introduction of color-coding to audio snakes, for simplified channel identification and installation.<br /><br />
+As broadcast and AV technologies evolved, Clark has continued to innovate with products such as gas-injected coax, hybrid fiber and tactical fiber cables for use with the latest HD video standards and applications.
+As part of our solutions based service model, Clark also offers customized interconnect products. From cable assemblies and custom manufactured cables to metal fabrication and custom wired patchbays, Clark can deliver connectivity products built specifically for each system.
+
+As Clark continues to grow and innovate in our markets, we continually strive to deliver leading edge products with our distinctive personalized service. We recognize the value and support of each and every customer, and look forward to continually earning your business.</p>
+</center>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+          <div className="card-footer text-muted">
+            2 days ago
+          </div>
+        </div>
       );
 }
 }

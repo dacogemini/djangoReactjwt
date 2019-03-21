@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+}
+.table {
+    width: 600px;
+}
+.resize {
+    width: 500px;
+}
+.list-group {
+    width: 300px;
+    padding: 40px;
+}
+.list-group2 {
+    width: 300PX;
+    padding: 40px;
+}
+.list-head {
+    background-color: rgb(24, 100, 49);
+    color: white;
+}
+.list-head2 {
+    background-color: rgba(24, 100, 49);
+    color: white;
+}
+.head-txt {
+    color: white;
+}
+th{
+    font-weight: normal;
+}
+td{
+    width: 500px;
+}
+
+/* Awesome Font */
+.fa-fire {
+    color: orangered;
+    padding: 10px;
+}
+.fa-hdd {
+    color: rgb(93, 40, 136);
+    padding: 10px;
+}

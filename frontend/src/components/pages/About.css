@@ -1,45 +1,16 @@
-.jumbotron {
-    margin-left: 150px;
-    background-color: #33393F;
-    padding: 10px;
-    width: 85%;
-}
-h2 {
-    position: absolute;
-    margin-left: 450px;
+.card-header {
     font-family: 'Anaheim', sans-serif;
-    color: white;
+    font-size: 58px;
+    color: whitesmoke;
+    background-color: #0A5CA5;
+    width: 800px;
+    margin-left: 390px;
+    margin-top: 10px;
 }
-h3 {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 368px;
-    opacity: .5;
-    font-family: 'Anaheim', sans-serif;
-    color: white;
-}
-.container-experience {
+.card-text {
     padding: 10px;
-    width: 150px;
-    margin-top: 50px;
-    position: absolute;
-    margin-left: 400px;
+    width: 800px;
+    text-align: justify;
 }
-.image {
-    position: initial;
-    margin-top: -30px;
-    margin-left: -100px;
-    margin-bottom: -30px;
-    width: 400px;
-    height: 250px;
-    opacity: 1;
-}
-.image2 {
-    padding: 10px;
-    position: relative;
-    margin-top: -210px;
-    margin-left: 800px;
-    width: 130px;
-    opacity: 1;
-}
+
 
