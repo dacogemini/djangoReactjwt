@@ -60,7 +60,7 @@ CORS_ORIGIN_WHITELIST = (
     'localhost:3000/'
 )
 
-AUTH_USER_MODEL = 'users.CustomUser'
+AUTH_USER_MODEL = 'users.User'
 ROOT_URLCONF = 'backend.urls'
 
 TEMPLATES = [
