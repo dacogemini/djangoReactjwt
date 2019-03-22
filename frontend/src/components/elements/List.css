@@ -1,28 +1,41 @@
 .container {
     display: flex;
+
 }
-.table {
-    margin-top: 30px;
-    margin-left: -80px;
-    width: 50%;
+/* Table Settings Audio */
+.tbl-loc {
+    margin-left: -340px;
+    margin-top: 90px;
 }
-.head-tbl {
-    color: white;
+.tbl-sz {
+    width: 0px;;
+}
+/* Table Settings Video */
+.video {
+    margin-top: 100px;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(0, 153, 255);
+    text-decoration: underline;
+    font-weight: bold;
+    line-height: 180%;
+}
+/* Font Settings */
+.products {
+    font-family: 'Fjalla One', sans-serif;
+    color: inherit;
+    font-weight: bold;
+    margin-top: 2%;
 }
 .audio {
-    /* background-color: rgba(136, 190, 26, 0.522); */
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(0, 153, 255);
+    text-decoration: underline;
+    font-weight: bold;
+    line-height: 180%;
 }
-th{
-    font-weight: normal;
-    width: 70%;
+.space {
+    padding-right: 10px;
 }
-td{
-    width: 0%;
-}
-.rw {
-   width: 400px;
-}
-
 /* Awesome Font */
 .fa-fire {
     color: orangered;
