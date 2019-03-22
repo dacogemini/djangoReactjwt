@@ -2,35 +2,25 @@
     display: flex;
 }
 .table {
-    width: 600px;
+    margin-top: 30px;
+    margin-left: -80px;
+    width: 50%;
 }
-.resize {
-    width: 500px;
-}
-.list-group {
-    width: 300px;
-    padding: 40px;
-}
-.list-group2 {
-    width: 300PX;
-    padding: 40px;
-}
-.list-head {
-    background-color: rgb(24, 100, 49);
+.head-tbl {
     color: white;
 }
-.list-head2 {
-    background-color: rgba(24, 100, 49);
-    color: white;
-}
-.head-txt {
-    color: white;
+.audio {
+    /* background-color: rgba(136, 190, 26, 0.522); */
 }
 th{
     font-weight: normal;
+    width: 70%;
 }
 td{
-    width: 500px;
+    width: 0%;
+}
+.rw {
+   width: 400px;
 }
 
 /* Awesome Font */
