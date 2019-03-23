@@ -4,27 +4,31 @@
 }
 /* Table Settings Audio */
 .tbl-loc {
-    margin-left: -340px;
-    margin-top: 90px;
+    margin-left: -400px;
+    margin-top: 100px;
+    
 }
 .tbl-sz {
     width: 0px;;
 }
 /* Table Settings Video */
+.tbl-loc2 {
+    margin-left: -100px;
+    margin-top: -12px;
+
+}
 .video {
-    margin-top: 100px;
-    font-family: 'Fjalla One', sans-serif;
-    color: rgb(0, 153, 255);
-    text-decoration: underline;
-    font-weight: bold;
-    line-height: 180%;
+    margin-top: 110px;
+    line-height: 130%;
 }
 /* Font Settings */
 .products {
     font-family: 'Fjalla One', sans-serif;
-    color: inherit;
-    font-weight: bold;
+    color: #025CA7;
     margin-top: 2%;
+    margin-left: -150px;
+    width: 400px;
+
 }
 .audio {
     font-family: 'Fjalla One', sans-serif;

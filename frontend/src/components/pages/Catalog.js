@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import List from '../elements/List';
+import Additional from '../elements/Additional';
+
 
 
 class Catalog extends Component {
@@ -7,6 +9,7 @@ class Catalog extends Component {
     return (
         <div>
           <List />
+          <Additional />
         </div>
     );
   }

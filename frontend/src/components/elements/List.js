@@ -5,9 +5,7 @@ class List extends Component {
     render() {
       return (
         <div className="container">
-        <center>
-        <h1 className="products">OUR PRODUCTS</h1>
-        </center>
+        <h1 className="products"><center>OUR PRODUCTS</center></h1>
 {/* AUDIO CABLES */}
  <table className="tbl-loc" width={732} border={0} cellSpacing={0} cellPadding={0} bgcolor="#FFFFFF">
   <tbody><tr valign="top">
@@ -15,10 +13,10 @@ class List extends Component {
         <table width={500} border={0} align="center">
           <tbody><tr align="left" valign="middle">
               <td> 
-              <h3 className="audio">AUDIO CABLES
+              <h5>AUDIO CABLES
               {' '}
               <i class="fas fa-volume-up" />
-              </h3>
+              </h5>
               </td>
             </tr>
             <tr align="left" valign="middle">
@@ -162,49 +160,19 @@ class List extends Component {
           </tbody></table>
         <br />
         <br />
-        <table width={500} border={0} align="center">
-          <tbody><tr align="left" valign="middle">
-              <td width={500} colSpan={1}><p className="CategoryTITLEcableOTHER">Other Cable Categories</p>
-              </td>
-            </tr>
-            <tr align="left" valign="middle">
-              <td><a href="catcableVIDEO.htm" className="CategoryTITLEcableS">
-                  <p className="CategoryTITLEcableS">Video Coax &amp; UTP</p></a></td>
-            </tr>
-            <tr align="left" valign="middle">
-              <td><a href="catcableCAMERA.htm" className="CategoryTITLEcableS"><p className="CategoryTITLEcableS">Camera</p></a></td>
-            </tr>
-            <tr align="left" valign="middle">
-              <td><a href="catcableCOMPOSITE.htm" className="CategoryTITLEcableS">
-                  <p className="CategoryTITLEcableS">Composite</p></a></td>
-            </tr>
-            <tr align="left" valign="middle">
-              <td><a href="catcableNETWORK.htm" className="CategoryTITLEcableS">
-                  <p className="CategoryTITLEcableS">Category Network </p></a></td>
-            </tr>
-            <tr align="left" valign="middle">
-              <td><a href="catcableLGHTCONT.htm" className="CategoryTITLEcableS"><p className="CategoryTITLEcableS">Lighting and Control</p></a></td>
-            </tr>
-            <tr align="left" valign="middle">
-              <td><a href="catcableFIBER.htm" className="CategoryTITLEcableS"><p className="CategoryTITLEcableS">Optical Fiber</p></a></td>
-            </tr>
-            <tr align="left" valign="middle">
-              <td><a href="CustomSelectCables.htm" className="CategoryTITLEcableS">
-                  <p className="CategoryTITLEcableS">Custom Select™ Multi-Core</p></a></td>
-            </tr>
-          </tbody></table>
       </td>
     </tr>
   </tbody>
   </table>
-  <table width={732} border={0} cellSpacing={0} cellPadding={0} bgcolor="#FFFFFF">
+  {/* VIDEO */}
+  <table className="tbl-loc2">
     <tbody><tr valign="top">
         <td align="left" width={732}>
           <div className="CCheader">
-            <p className="CategoryTITLEcable2 video"><h3>VIDEO CABLES
+            <h5 className="video">VIDEO CABLES
             {' '}
             <i class="fas fa-video"></i>
-            </h3></p>
+            </h5>
           </div> 
           <table width={500} border={0}>
             <tbody><tr align="left" valign="middle">
